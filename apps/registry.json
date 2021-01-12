@@ -161,5 +161,29 @@
         ],
         "path": "",
         "defaultPassword": ""
+    },
+    {
+        "id": "umbrui",
+        "category": "Hardware",
+        "name": "UmbrUI",
+        "version": "0.0.1",
+        "tagline": "Just a test :-)",
+        "description": "I won't write a description right now, you know what this is, you developed it :-)",
+        "developer": "Edd Williams",
+        "website": "https://github.com/EddWills95/UmbrUI",
+        "dependencies": [
+            "bitcoind",
+            "lnd"
+        ],
+        "repo": "https://github.com/EddWills95/UmbrUI",
+        "support": "https://github.com/EddWills95/UmbrUI",
+        "port": 1,
+        "gallery": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+        ],
+        "path": "",
+        "defaultPassword": ""
     }
 ]
