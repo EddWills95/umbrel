@@ -161,5 +161,29 @@
         ],
         "path": "",
         "defaultPassword": ""
+    },
+    {
+        "id": "Umbrui",
+        "category": "Hardward",
+        "name": "3.5' Screen Support",
+        "version": "0.0.1",
+        "tagline": "A Screen",
+        "description": "Adds a screen to the raspberry pi to see status of things",
+        "developer": "Edd Williams",
+        "website": "https://explorer.btc21.org",
+        "dependencies": [
+            "bitcoind",
+            "electrum"
+        ],
+        "repo": "https://github.com/EddWills95/UmbrUI",
+        "support": "https://github.com/EddWills95/UmbrUI/issues",
+        "port": 0001,
+        "gallery": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+        ],
+        "path": "",
+        "defaultPassword": ""
     }
 ]
