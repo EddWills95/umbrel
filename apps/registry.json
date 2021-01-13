@@ -165,19 +165,19 @@
     {
         "id": "umbrui",
         "category": "Hardware",
-        "name": "3.5' Screen Support",
+        "name": "UmbrUI",
         "version": "0.0.1",
-        "tagline": "A Screen",
-        "description": "Adds a screen to the raspberry pi to see status of things",
+        "tagline": "Use a screen with your Umbrel node",
+        "description": "This app allows you to use a 3.5 inch screen with your Umbrel node to get some basic information.",
         "developer": "Edd Williams",
-        "website": "https://explorer.btc21.org",
+        "website": "https://github.com/EddWills95/UmbrUI",
         "dependencies": [
             "bitcoind",
-            "electrum"
+            "lnd"
         ],
         "repo": "https://github.com/EddWills95/UmbrUI",
-        "support": "https://github.com/EddWills95/UmbrUI/issues",
-        "port": 3006,
+        "support": "https://github.com/EddWills95/UmbrUI",
+        "port": 1,
         "gallery": [
             "1.jpg",
             "2.jpg",
