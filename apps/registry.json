@@ -167,8 +167,8 @@
         "category": "Hardware",
         "name": "UmbrUI",
         "version": "0.0.1",
-        "tagline": "Just a test :-)",
-        "description": "I won't write a description right now, you know what this is, you developed it :-)",
+        "tagline": "Use a screen with your Umbrel node",
+        "description": "This app allows you to use a 3.5 inch screen with your Umbrel node to get some basic information.",
         "developer": "Edd Williams",
         "website": "https://github.com/EddWills95/UmbrUI",
         "dependencies": [
