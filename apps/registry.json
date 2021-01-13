@@ -163,8 +163,8 @@
         "defaultPassword": ""
     },
     {
-        "id": "Umbrui",
-        "category": "Hardward",
+        "id": "umbrui",
+        "category": "Hardware",
         "name": "3.5' Screen Support",
         "version": "0.0.1",
         "tagline": "A Screen",
@@ -177,7 +177,7 @@
         ],
         "repo": "https://github.com/EddWills95/UmbrUI",
         "support": "https://github.com/EddWills95/UmbrUI/issues",
-        "port": 0001,
+        "port": 3006,
         "gallery": [
             "1.jpg",
             "2.jpg",
