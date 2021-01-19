@@ -168,7 +168,7 @@
         "name": "UmbrUI",
         "version": "0.0.1",
         "tagline": "Use a screen with your Umbrel node",
-        "description": "This app allows you to use a 3.5 inch screen with your Umbrel node to get some basic information.",
+        "description": "This app allows you to use a 3.5 inch screen with your Umbrel node to get some basic information. Please do not use this app with anything except a screen connected to the GPIO pins to prevent damages to that device.",
         "developer": "Edd Williams",
         "website": "https://github.com/EddWills95/UmbrUI",
         "dependencies": [
