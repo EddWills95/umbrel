@@ -9,7 +9,7 @@ x-logging:
 services:
   app:
     logging: *default-logging
-    image: aarondewes/umbrui:main
+    image: eddwills95/umbrui:main
     volumes:
       - ${APP_DATA_DIR}/screenshots:/usr/screenshots
       - ${APP_DATA_DIR}/../../tor/data/web/hostname:/usr/tor_hostname
@@ -21,7 +21,6 @@ services:
       BITCOIN_IP: $BITCOIN_IP
       LND_IP: $LND_IP
       LND_GRPC_PORT: $LND_GRPC_PORT
-    network_mode: host
   screen:
     logging: *default-logging
     image: eddwills95/umbrui-renderer:main
