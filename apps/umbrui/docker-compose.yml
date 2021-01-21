@@ -13,7 +13,7 @@ services:
     volumes:
       - ${APP_DATA_DIR}/screenshots:/usr/screenshots
       - ${APP_DATA_DIR}/../../tor/data/web/hostname:/usr/tor_hostname
-      - ${LND_DATA_DIR}:/lnd:ro
+      - ${LND_DATA_DIR}:/app/lnd:ro
     environment:
       BITCOIN_RPC_USER: $BITCOIN_RPC_USER
       BITCOIN_RPC_PASS: $BITCOIN_RPC_PASS
