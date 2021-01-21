@@ -9,7 +9,7 @@ x-logging:
 services:
   app:
     logging: *default-logging
-    image: eddwills95/umbrui:main
+    image: aarondewes/umbrui:main
     volumes:
       - ${APP_DATA_DIR}/screenshots:/usr/screenshots
       - ${APP_DATA_DIR}/../../tor/data/web/hostname:/usr/tor_hostname
@@ -23,7 +23,7 @@ services:
       LND_GRPC_PORT: $LND_GRPC_PORT
   screen:
     logging: *default-logging
-    image: eddwills95/umbrui-renderer:main
+    image: aarondewes/umbrui-renderer:main
     volumes:
       - ${APP_DATA_DIR}/screenshots:/usr/screenshots
     devices:
